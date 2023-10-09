@@ -29,7 +29,7 @@ python3 cocktail_app.py
 ~~~
 
 The terminal will answer with the message *Enter your drink:*  
-Insert the desired drink name and you will receive a json as the following:  
+Insert the desired drink name and you will receive a JSON as the following:  
 
 ```json  
 {
