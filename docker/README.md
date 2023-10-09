@@ -20,7 +20,7 @@ Once the image was built, run the following command:
 docker run -it --name python-container1 cocktail-python
 ```
 
-This command will create the container and take you immediately to the python application inside the container.  
+This command will create the container *python-container1* based on the image *cocktail-python* and take you immediately to the python application inside the container.  
 Just as in the venv version, you will receive the message *Enter your drink:*  
 Insert the desired drink name and you will receive a json as the following:  
 
