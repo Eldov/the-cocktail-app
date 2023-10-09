@@ -1,5 +1,5 @@
 # the-cocktail-app: venv version 
-This version requires Python and pip to be already installed in your machine.  
+This version requires Python (at least 3.6) and pip to be already installed in your machine.  
 If you do not have or do not wish to have python, check the other versions using Docker [here](https://github.com/Eldov/the-cocktail-app/blob/main/README.md).  
   
 In order to run this app, the following steps must be taken:  
