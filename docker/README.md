@@ -17,7 +17,7 @@ Our container will be created based on this image.
 
 Once the image was built, run the following command:  
 ```
-docker run -it cocktail-python
+docker run -it --name python-container1 cocktail-python
 ```
 
 This command will create the container and take you immediately to the python application inside the container.  
@@ -127,3 +127,15 @@ Insert the desired drink name and you will receive a json as the following:
    }
 }
 ```
+## **Step 3:**
+Ending the application:    
+```
+docker container stop python-container1
+```  
+Deleting the container:  
+```
+docker container rm python-container1
+```
+Deleting the image:  
+```
+docker image rm cocktail-python
