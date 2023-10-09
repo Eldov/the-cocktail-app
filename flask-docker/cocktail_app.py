@@ -56,6 +56,9 @@ def getDrink(drink_name):
     
     # Tranforming the ingredients list into a column in the DataFrame
     df['Ingredients'] = ingredients_list
+
+    # Setting the index as "Id"
+    df.set_index('Id', inplace=True)
     
     # Getting the result back to JSON as specified by the email
     return df
