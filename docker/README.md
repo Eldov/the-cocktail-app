@@ -1,5 +1,5 @@
 # the-cocktail-app: docker version 
-This version requires Docker installed in your machine.  
+This version requires Docker to be installed on your machine.  
 If you do not have or do not wish to have Docker, check the other version using native Python [here](https://github.com/Eldov/the-cocktail-app/blob/main/README.md).  
   
 In order to run this app, the following steps must be taken:  
@@ -20,9 +20,9 @@ Once the image was built, run the following command:
 docker run -it --name python-container1 cocktail-python
 ```
 
-This command will create the container *python-container1* based on the image *cocktail-python* and take you immediately to the python application inside the container.  
+This command will create the container *python-container1* based on the image *cocktail-python* and take you immediately to the Python application inside the container.  
 Just as in the venv version, you will receive the message *Enter your drink:*  
-Insert the desired drink name and you will receive a json as the following:  
+Insert the desired drink name and you will receive a JSON as follows:  
 
 ```json  
 {
