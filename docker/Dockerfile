@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD ["python3", "cocktail_app"]
+CMD ["python3", "cocktail_app.py"]
