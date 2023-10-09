@@ -11,7 +11,7 @@ Create a virtual environment where you will be free to install the required libs
 ~~~
 python3 -m venv project3_venv  
 ~~~
-The required libs can be found in the file [requirements.txt]([https://github.com/Eldov/Portfolio/blob/main/Project%203/requirements.txt](https://github.com/Eldov/the-cocktail-app/blob/main/venv/requirements.txt)). In order to use it, you should activate the venv first:
+The required libs can be found in the file [requirements.txt](https://github.com/Eldov/the-cocktail-app/blob/main/venv/requirements.txt). In order to use it, you should activate the venv first:
 ~~~
 .\project3_venv\Scripts\activate.ps1
 ~~~
