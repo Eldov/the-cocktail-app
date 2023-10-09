@@ -35,7 +35,7 @@ docker run -d -p 5000:5000 --name flask-container1 cocktail-flask
 ```
 
 This command will make sure the port 5000 is the one being used in the localhost.   
-When deploying the application, docker will create the container and keep it running on the background.  
+When deploying the application, docker will create the container *flask-container1* based on the image *cocktail-flask* and keep it running on the background.  
 
 ## **Step 3:**
 
