@@ -19,7 +19,7 @@ If you do not have or do not wish to have Docker nor use Flask, check the other 
 In order to run this app, the following steps must be taken:  
   
 ## **Step 1:**
-Having Docker open and running and cloned this repo in your local machine, go to the *docker* folder and run the following comands on your terminal:  
+Having Docker open and running and cloned this repo in your local machine, go to the *flask-docker* folder and run the following comands on your terminal:  
 ```
 docker build -t cocktail-flask .
 ```
