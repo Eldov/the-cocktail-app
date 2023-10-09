@@ -1,5 +1,5 @@
 # the-cocktail-app: flask-docker version 
-This version requires Docker installed in your machine. Note that it is a flask app so the interaction will be made using a browser.  
+This version requires Docker to be installed on your machine. Note that it is a flask app so the interaction will be made using a browser.  
 If you do not have or do not wish to have Docker nor use Flask, check the other version using native Python or Python in Docker [here](https://github.com/Eldov/the-cocktail-app/blob/main/README.md). 
 
 ## Project structure:
@@ -34,12 +34,12 @@ Once the image was built, run the following command:
 docker run -d -p 5000:5000 --name flask-container1 cocktail-flask
 ```
 
-This command will make sure the port 5000 is the one being used in the localhost.   
-When deploying the application, docker will create the container *flask-container1* based on the image *cocktail-flask* and keep it running on the background.  
+This command will ensure that port 5000 is being used on the localhost.   
+When deploying the application, Docker will create the container *flask-container1* based on the image *cocktail-flask* and keep it running on the background.  
 
 ## **Step 3:**
 
-In order to access the web-page, navigate to `http://localhost:5000`.
+In order to access the web-page, navigate to `http://localhost:5000`.  
 There, you can insert the desired drink name and submit. The page will show a table with the every drink related to the inserted name. 
 
 The result should be something similar to this:  
