@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Drink Name</title>
+</head>
+<body>
+    <h1>Enter a drink name</h1>
+    <form action="/" method="post">
+        <p>Drink: <input type="text" name="drink" /></p>
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+    <h1>Drinks</h1>
+    {% if tables %}
+        {% for table in tables %}
+            {{ table|safe }}
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cocktails</title>
+</head>
+<body>
+
+    <form action="/" method="POST">
+        <input type="text" name="drink" placeholder="Insert drink name"></input>
+        <input type="submit"></input>
+        </form>
+
+        {% if drink_name %}
+        <h1>The drink name is {{ drink_name }}</h1>
+        {% endif %}
+    
+    <!-- <head>
+        <title>Drinks</title>
+    </head>
+    <body>
+        <h1>Drinks</h1>
+        {% for table in tables %}
+            {{ table|safe }}
+        {% endfor %}
+ -->
+
+</body>
+</html>
