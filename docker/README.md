@@ -12,7 +12,7 @@ docker build -t cocktail-python .
 This will use the Dockerfile present in the same folder to create a docker image called *cocktail-python*.  
 Our container will be created based on this image.  
   
-## ***Step 2:**
+## **Step 2:**
 
 
 Once the image was built, run the following command:  
